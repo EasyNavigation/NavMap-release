@@ -1,0 +1,26 @@
+ros-kilted-navmap-core (0.2.1-1bookworm) bookworm; urgency=high
+
+  * Fix Eigen3 dep in package.xml
+  * Contributors: Francisco Martín Rico
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Wed, 24 Sep 2025 22:00:00 -0000
+
+ros-kilted-navmap-core (0.2.0-1bookworm) bookworm; urgency=high
+
+  * Change License to Apache 2
+  * Fix no update layers when dirty
+  * Set by areas (cicrcular or rectangular)
+  * Improve efficiency in layer copy
+  * Add Contructors
+  * NavMap assignment Optimization
+  * Conversion from/to messages for layers
+  * Easy API, tests and Readme
+  * Fix locate_navcel
+  * Mesh form points
+  * Stable version with complete basic functionality
+  * Basic NavMap structures
+  * Contributors: Francisco Martín Rico
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Wed, 24 Sep 2025 22:00:00 -0000
+
+
