@@ -1,0 +1,15 @@
+ros-kilted-navmap-examples (0.2.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- fmrico <fmrico@gmail.com>  Wed, 24 Sep 2025 22:00:00 -0000
+
+ros-kilted-navmap-examples (0.2.0-1bookworm) bookworm; urgency=high
+
+  * Change License to Apache 2
+  * Examples added
+  * Contributors: Francisco Martín Rico
+
+ -- fmrico <fmrico@gmail.com>  Wed, 24 Sep 2025 22:00:00 -0000
+
+
