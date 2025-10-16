@@ -1,0 +1,12 @@
+Source: ros-kilted-navmap-rviz-plugin
+Section: misc
+Priority: optional
+Maintainer: Francisco Martín Rico <fmrico@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-geometry-msgs, ros-kilted-navmap-ros-interfaces, ros-kilted-pluginlib, ros-kilted-rclcpp, ros-kilted-rviz-common, ros-kilted-rviz-default-plugins, ros-kilted-rviz-rendering, ros-kilted-sensor-msgs, ros-kilted-std-msgs, ros-kilted-visualization-msgs, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-navmap-rviz-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-geometry-msgs, ros-kilted-navmap-ros-interfaces, ros-kilted-pluginlib, ros-kilted-rclcpp, ros-kilted-rviz-common, ros-kilted-rviz-default-plugins, ros-kilted-rviz-rendering, ros-kilted-sensor-msgs, ros-kilted-std-msgs, ros-kilted-visualization-msgs, ros-kilted-ros-workspace
+Description: RViz2 display plugin for NavMap surfaces and layers.
