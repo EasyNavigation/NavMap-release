@@ -2,6 +2,11 @@
 Changelog for package navmap_core
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.3 (2025-10-16)
+------------------
+* Fix dependencies
+* Contributors: Francisco Martín Rico
+
 0.2.2 (2025-10-12)
 ------------------
 * Creates a surface if there isn't anyone
