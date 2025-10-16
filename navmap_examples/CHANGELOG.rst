@@ -2,6 +2,9 @@
 Changelog for package navmap_examples
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.3 (2025-10-16)
+------------------
+
 0.2.2 (2025-10-12)
 ------------------
 * Creates a surface if there isn't anyone
