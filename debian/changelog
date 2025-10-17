@@ -1,0 +1,42 @@
+ros-jazzy-navmap-ros-interfaces (0.2.5-1noble) noble; urgency=high
+
+
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Thu, 16 Oct 2025 22:00:00 -0000
+
+ros-jazzy-navmap-ros-interfaces (0.2.4-1noble) noble; urgency=high
+
+
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Wed, 15 Oct 2025 22:00:00 -0000
+
+ros-jazzy-navmap-ros-interfaces (0.2.3-1noble) noble; urgency=high
+
+  * Fix dependencies
+  * Contributors: Francisco Martín Rico
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Wed, 15 Oct 2025 22:00:00 -0000
+
+ros-jazzy-navmap-ros-interfaces (0.2.2-1noble) noble; urgency=high
+
+
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Sat, 11 Oct 2025 22:00:00 -0000
+
+ros-jazzy-navmap-ros-interfaces (0.2.1-1noble) noble; urgency=high
+
+
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Wed, 24 Sep 2025 22:00:00 -0000
+
+ros-jazzy-navmap-ros-interfaces (0.2.0-1noble) noble; urgency=high
+
+  * Change License to Apache 2
+  * Conversion from/to messages for layers
+  * Added RViz Plugin
+  * Stable version with complete basic functionality
+  * Contributors: Francisco Martín Rico
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Wed, 24 Sep 2025 22:00:00 -0000
+
+
