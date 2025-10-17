@@ -1,0 +1,64 @@
+ros-jazzy-navmap-ros (0.2.5-1bookworm) bookworm; urgency=high
+
+  * Fix pcl_conversions build
+  * Contributors: Francisco Martín Rico
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Thu, 16 Oct 2025 22:00:00 -0000
+
+ros-jazzy-navmap-ros (0.2.4-1bookworm) bookworm; urgency=high
+
+
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Wed, 15 Oct 2025 22:00:00 -0000
+
+ros-jazzy-navmap-ros (0.2.3-1bookworm) bookworm; urgency=high
+
+
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Wed, 15 Oct 2025 22:00:00 -0000
+
+ros-jazzy-navmap-ros (0.2.2-1bookworm) bookworm; urgency=high
+
+  * Creates a surface if there isn't anyone
+  * Contributors: Francisco Martín Rico
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Sat, 11 Oct 2025 22:00:00 -0000
+
+ros-jazzy-navmap-ros (0.2.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Wed, 24 Sep 2025 22:00:00 -0000
+
+ros-jazzy-navmap-ros (0.2.0-1bookworm) bookworm; urgency=high
+
+  * Merge pull request #6 <https://github.com/EasyNavigation/NavMap/issues/6> from EasyNavigation/imp_surf
+    Imp surf
+  * Remove traces
+  * linting
+  * Stable non-overlaping version
+  * Functional new version
+  * Functional new version
+  * Merge pull request #5 <https://github.com/EasyNavigation/NavMap/issues/5> from EasyNavigation/improve_surface
+    Improve surface creation
+  * Improve surface creation
+  * Merge pull request #2 <https://github.com/EasyNavigation/NavMap/issues/2> from EasyNavigation/slam_server
+    Surface reconstruction and Slam server
+  * Merge pull request #1 <https://github.com/EasyNavigation/NavMap/issues/1> from EasyNavigation/license
+    Change License to Apache 2
+  * Lintering
+  * Lintering
+  * Adding surface reconstruction from PC2. Adding slam server app
+  * Change License to Apache 2
+  * Set by areas (cicrcular or rectangular)
+  * Conversion from/to messages for layers
+  * Fix locate_navcel
+  * Mesh form points
+  * Save/Load to file
+  * Added RViz Plugin
+  * Stable version with complete basic functionality
+  * Contributors: Francisco Martín Rico
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Wed, 24 Sep 2025 22:00:00 -0000
+
+
