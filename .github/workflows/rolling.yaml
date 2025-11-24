@@ -7,8 +7,6 @@ on:
   push:
     branches:
       - rolling
-  schedule:
-      - cron: '0 0 * * 6'     
 jobs:
   build-and-test:
     runs-on: ${{ matrix.os }}
@@ -18,6 +16,8 @@ jobs:
       fail-fast: false
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: rolling
       - name: Setup ROS 2
         uses: ros-tooling/setup-ros@0.7.15
         with:
