@@ -2,8 +2,9 @@
 Changelog for package navmap_ros_interfaces
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.3.0 (2025-11-24)
+0.4.0 (2025-11-24)
 ------------------
+* Merge branch 'rolling' into kilted
 * Merge branch 'jazzy' into rolling
 * Contributors: Francisco Martín Rico
 
