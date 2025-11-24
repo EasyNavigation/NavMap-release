@@ -1,0 +1,12 @@
+Source: ros-jazzy-navmap-ros
+Section: misc
+Priority: optional
+Maintainer: Francisco Martín Rico <fmrico@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-geometry-msgs, ros-jazzy-nav-msgs, ros-jazzy-navmap-core, ros-jazzy-navmap-ros-interfaces, ros-jazzy-pcl-conversions, ros-jazzy-pcl-ros, ros-jazzy-rclcpp, ros-jazzy-sensor-msgs, ros-jazzy-std-srvs, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-navmap-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-geometry-msgs, ros-jazzy-nav-msgs, ros-jazzy-navmap-core, ros-jazzy-navmap-ros-interfaces, ros-jazzy-pcl-conversions, ros-jazzy-pcl-ros, ros-jazzy-rclcpp, ros-jazzy-sensor-msgs, ros-jazzy-std-srvs, ros-jazzy-ros-workspace
+Description: Conversions between navmap_core and ROS messages
