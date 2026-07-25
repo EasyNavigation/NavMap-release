@@ -1,0 +1,12 @@
+Source: ros-lyrical-navmap-ros
+Section: misc
+Priority: optional
+Maintainer: "Francisco Martín Rico" <fmrico@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-geometry-msgs, ros-lyrical-nav-msgs, ros-lyrical-navmap-core, ros-lyrical-navmap-ros-interfaces, ros-lyrical-pcl-conversions, ros-lyrical-pcl-ros, ros-lyrical-rclcpp, ros-lyrical-sensor-msgs, ros-lyrical-std-srvs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/navmap_ros/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-navmap-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-geometry-msgs, ros-lyrical-nav-msgs, ros-lyrical-navmap-core, ros-lyrical-navmap-ros-interfaces, ros-lyrical-pcl-conversions, ros-lyrical-pcl-ros, ros-lyrical-rclcpp, ros-lyrical-sensor-msgs, ros-lyrical-std-srvs, ros-lyrical-ros-workspace
+Description: Conversions between navmap_core and ROS messages
