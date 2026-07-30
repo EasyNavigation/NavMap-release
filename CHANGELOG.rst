@@ -2,6 +2,20 @@
 Changelog for package navmap_ros
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.1 (2026-07-30)
+------------------
+
+0.5.0 (2026-07-25)
+------------------
+* Fix test compilation error with rosidl::Buffer
+* PCL private linkage: avoid Qt5/6 conflicts
+* Fix doc in header
+* Add headers in conversions
+* Add occupancy grid constants
+* Acelerated respecting floors
+* Working slow with many points
+* Contributors: Francisco Martín Rico, Francisco Miguel Moreno, estherag
+
 0.4.0 (2025-11-24)
 ------------------
 * Cleanup unused headers
