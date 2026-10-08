@@ -1,0 +1,12 @@
+Source: ros-humble-navmap-examples
+Section: misc
+Priority: optional
+Maintainer: "Francisco Martín Rico" <fmrico@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, nlohmann-json3-dev, ros-humble-ament-cmake, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-nav-msgs, ros-humble-navmap-core, ros-humble-navmap-ros, ros-humble-navmap-ros-interfaces, ros-humble-rclcpp, ros-humble-ros-workspace
+Homepage: https://index.ros.org/p/navmap_examples/#humble
+Standards-Version: 3.9.2
+
+Package: ros-humble-navmap-examples
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, nlohmann-json3-dev, ros-humble-launch-ros, ros-humble-nav-msgs, ros-humble-navmap-core, ros-humble-navmap-ros, ros-humble-navmap-ros-interfaces, ros-humble-rclcpp, ros-humble-ros-workspace
+Description: Examples related to navmap_core y navmap_ros.
