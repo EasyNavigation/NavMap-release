@@ -1,3 +1,32 @@
+## NavMap (jazzy) - 0.6.0-1
+
+The packages in the `NavMap` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --rosdistro jazzy --track jazzy NavMap` on `Thu, 08 Oct 2026 19:12:14 -0000`
+
+These packages were released:
+- `navmap_core`
+- `navmap_examples`
+- `navmap_ros`
+- `navmap_ros_interfaces`
+- `navmap_rviz_plugin`
+- `navmap_tools`
+
+Version of package(s) in repository `NavMap`:
+
+- upstream repository: https://github.com/EasyNavigation/NavMap.git
+- release repository: https://github.com/EasyNavigation/NavMap-release.git
+- rosdistro version: `0.3.0-1`
+- old version: `0.3.0-1`
+- new version: `0.6.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.4`
+- catkin_pkg version: `1.1.1`
+- rosdep version: `0.27.0`
+- rosdistro version: `1.1.0`
+- vcstools version: `0.1.42`
+
+
 ## NavMap (humble) - 0.6.0-1
 
 The packages in the `NavMap` repository were released into the `humble` distro by running `/usr/bin/bloom-release --rosdistro humble --track humble NavMap --new-track` on `Thu, 08 Oct 2026 19:00:08 -0000`
