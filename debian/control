@@ -1,0 +1,12 @@
+Source: ros-lyrical-navmap-tools
+Section: misc
+Priority: optional
+Maintainer: "Francisco Martín Rico" <fmrico@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-cmake-pytest <!nocheck>, ros-lyrical-ament-cmake-python, ros-lyrical-ament-copyright <!nocheck>, ros-lyrical-ament-flake8 <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-ament-pep257 <!nocheck>, ros-lyrical-ament-xmllint <!nocheck>, ros-lyrical-navmap-core, ros-lyrical-navmap-ros, ros-lyrical-navmap-ros-interfaces, ros-lyrical-pcl-conversions, ros-lyrical-rclcpp, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/navmap_tools/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-navmap-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-numpy, python3-pil, python3-platformdirs, python3-pyproj, python3-requests, ros-lyrical-ament-index-python, ros-lyrical-nav-msgs, ros-lyrical-navmap-core, ros-lyrical-navmap-ros, ros-lyrical-navmap-ros-interfaces, ros-lyrical-pcl-conversions, ros-lyrical-rclcpp, ros-lyrical-rclpy, ros-lyrical-sensor-msgs, ros-lyrical-sensor-msgs-py, ros-lyrical-tf2-ros-py, ros-lyrical-ros-workspace
+Description: Tools and utilities for building and testing NavMaps: a GIS-to-NavMap/Gazebo generator (given a GPS center and a size in meters), a PointCloud-to-NavMap mesh builder, and a NavMap file publisher for RViz2.
