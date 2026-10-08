@@ -1,0 +1,12 @@
+Source: ros-kilted-navmap-tools
+Section: misc
+Priority: optional
+Maintainer: "Francisco Martín Rico" <fmrico@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-kilted-ament-cmake, ros-kilted-ament-cmake-gtest <!nocheck>, ros-kilted-ament-cmake-pytest <!nocheck>, ros-kilted-ament-cmake-python, ros-kilted-ament-copyright <!nocheck>, ros-kilted-ament-flake8 <!nocheck>, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-ament-pep257 <!nocheck>, ros-kilted-ament-xmllint <!nocheck>, ros-kilted-navmap-core, ros-kilted-navmap-ros, ros-kilted-navmap-ros-interfaces, ros-kilted-pcl-conversions, ros-kilted-rclcpp, ros-kilted-ros-workspace
+Homepage: https://index.ros.org/p/navmap_tools/#kilted
+Standards-Version: 3.9.2
+
+Package: ros-kilted-navmap-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-numpy, python3-pil, python3-platformdirs, python3-pyproj, python3-requests, ros-kilted-ament-index-python, ros-kilted-nav-msgs, ros-kilted-navmap-core, ros-kilted-navmap-ros, ros-kilted-navmap-ros-interfaces, ros-kilted-pcl-conversions, ros-kilted-rclcpp, ros-kilted-rclpy, ros-kilted-sensor-msgs, ros-kilted-sensor-msgs-py, ros-kilted-tf2-ros-py, ros-kilted-ros-workspace
+Description: Tools and utilities for building and testing NavMaps: a GIS-to-NavMap/Gazebo generator (given a GPS center and a size in meters), a PointCloud-to-NavMap mesh builder, and a NavMap file publisher for RViz2.
