@@ -1,0 +1,12 @@
+Source: ros-humble-navmap-rviz-plugin
+Section: misc
+Priority: optional
+Maintainer: "Francisco Martín Rico" <fmrico@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-geometry-msgs, ros-humble-navmap-core, ros-humble-navmap-ros, ros-humble-navmap-ros-interfaces, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rviz-common, ros-humble-rviz-default-plugins, ros-humble-rviz-rendering, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-visualization-msgs, ros-humble-ros-workspace
+Homepage: https://index.ros.org/p/navmap_rviz_plugin/#humble
+Standards-Version: 3.9.2
+
+Package: ros-humble-navmap-rviz-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, ros-humble-geometry-msgs, ros-humble-navmap-core, ros-humble-navmap-ros, ros-humble-navmap-ros-interfaces, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rviz-common, ros-humble-rviz-default-plugins, ros-humble-rviz-rendering, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-visualization-msgs, ros-humble-ros-workspace
+Description: RViz2 display plugin for NavMap surfaces and layers.
